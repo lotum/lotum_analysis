@@ -87,7 +87,7 @@ linter:
     - hash_and_equals
     - implementation_imports
     - implicit_call_tearoffs
-    - invariant_booleans
+    # - invariant_booleans (deprecated)
     - iterable_contains_unrelated_type
     - join_return_with_assignment
     - leading_newlines_in_multiline_strings
@@ -121,7 +121,7 @@ linter:
     - prefer_adjacent_string_concatenation
     - prefer_asserts_in_initializer_lists
     # - prefer_asserts_with_message
-    - prefer_bool_in_asserts
+    # - prefer_bool_in_asserts (deprecated)
     - prefer_collection_literals
     - prefer_conditional_assignment
     - prefer_const_constructors
@@ -171,7 +171,7 @@ linter:
     # - sort_constructors_first
     - sort_pub_dependencies
     # - sort_unnamed_constructors_first
-    - super_goes_last
+    # - super_goes_last (deprecated)
     - test_types_in_equals
     - throw_in_finally
     - tighten_type_of_initializing_formals
@@ -180,7 +180,7 @@ linter:
     - unawaited_futures
     - unnecessary_await_in_return
     - unnecessary_brace_in_string_interps
-    - unnecessary_breaks
+    # - unnecessary_breaks (unreleased)
     - unnecessary_const
     - unnecessary_constructor_name
     # - unnecessary_final
