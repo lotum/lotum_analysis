@@ -1,6 +1,6 @@
 name: lotum_analysis
 description: Analysis options for Dart and Flutter used internally at Lotum.
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/lotum/lotum_analysis
 
 environment:
