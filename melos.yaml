@@ -1,0 +1,13 @@
+name: lotum_analysis
+packages:
+  - .
+  - example
+
+ide:
+  intellij: false
+
+command:
+  version:
+    hooks:
+      preCommit: dart tool/update_version.dart
+    workspaceChangelog: false
